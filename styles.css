@@ -480,7 +480,16 @@ sup {
 
 /* start of scheduled drive */
 
+/* .model-y-navpane::after~.schedule {
+    visibility: visible;
+} */
+
+.active {
+    visibility: visible;
+}
+
 .schedule {
+    visibility: hidden;
     bottom: 0rem;
     position: fixed;
     font-size: 1.6rem;
