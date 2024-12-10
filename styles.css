@@ -116,6 +116,8 @@ button:hover {
     font-size: 1.5rem;
     color: white;
     padding-right: 2rem;
+    visibility: hidden;
+    letter-spacing: .1rem;
 }
 
 .homepage-content>p {
@@ -330,6 +332,18 @@ sup {
     padding: 0;
 }
 
+.logo-cybertruck {
+    color: white;
+}
+
+.cybertruck-paragraph {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    color: white;
+    letter-spacing: .1rem;
+    font-weight: 500;
+
+}
 
 /* end of cybertruck */
 
@@ -556,9 +570,7 @@ sup {
     color: white;
 }
 
-/* .tds-icon {
-    font-size: 2.8rem;
-} */
+
 
 /* start of video */
 .video-container {
@@ -576,7 +588,6 @@ sup {
     position: absolute;
     bottom: 30%;
     left: 5%;
-
 }
 
 .video-text>p {
@@ -600,4 +611,108 @@ sup {
 
 .schedule>.schedule-drive {
     margin: 0;
+}
+
+
+
+
+
+@media (max-width:1200px) {
+    .options-menu {
+        display: none;
+    }
+
+    .menu-icons {
+        display: none;
+    }
+
+    .menu {
+        visibility: visible;
+    }
+
+    .logo {
+        height: 12%;
+        width: 12%;
+    }
+
+    .homepage-content p {
+        font-size: 3rem;
+    }
+
+    button {
+        font-size: 1.4rem;
+        padding: 1rem 4rem;
+    }
+
+    .model-name {
+        font-size: 4rem;
+    }
+
+    .model-name-paragraph1 {
+        font-size: 3rem;
+    }
+
+    .model-name-paragraph3 {
+        font-size: 2rem;
+    }
+
+    .model-name-paragraph4 {
+        font-size: 3rem;
+    }
+
+    .video-text {
+        bottom: 5%;
+        left: 5%;
+    }
+
+    .footer-content>div {
+        width: 60%;
+    }
+}
+
+@media (max-width:900px) {
+    .logo {
+        height: 18%;
+        width: 18%;
+    }
+
+    .footer-content>div {
+        width: 80%;
+    }
+
+    #header {
+        background-image: url(./images/smallscreen/Homepage.avif);
+    }
+
+    #model-y {
+        background-image: url(./images/smallscreen/modelY.avif);
+    }
+
+    #model-x {
+        background-image: url(./images/smallscreen/modelx.avif);
+    }
+
+    #model-s {
+        background-image: url(./images/smallscreen/models.avif);
+    }
+
+    #model-cybertruck {
+        background-image: url(./images/smallscreen/cybertruck.avif);
+    }
+
+    #model-solar-roof {
+        background-image: url(./images/smallscreen/solarroof.avif);
+    }
+
+    #model-solar-panels {
+        background-image: url(./images/smallscreen/sonarpanels.avif);
+    }
+
+    #model-powerwall {
+        background-image: url(./images/smallscreen/powerwall.avif);
+    }
+
+    #model-accessories {
+        background-image: url(./images/smallscreen/accessories.avif);
+    }
 }
